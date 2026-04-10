@@ -62,6 +62,10 @@ function App() {
           <img 
             src="/logo.png" 
             alt="Asteryx Logo" 
+            width="350"
+            height="53"
+            fetchPriority="high"
+            loading="eager"
             style={{ 
               maxWidth: '350px', 
               width: '100%', 
