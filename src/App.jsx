@@ -6,11 +6,12 @@ function App() {
   return (
     <div style={{ 
       width: '100vw', 
-      height: '100vh', 
+      minHeight: '100dvh', 
       position: 'relative', 
       display: 'flex', 
       justifyContent: 'center', 
-      alignItems: 'center' 
+      alignItems: 'center',
+      overflow: 'hidden'
     }}>
       {/* Background Animation */}
       <div style={{ 
