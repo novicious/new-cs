@@ -43,6 +43,21 @@ function App() {
         borderRadius: '50%',
         position: 'relative'
       }}>
+        {/* SEO Main Title (Visually Hidden) */}
+        <h1 style={{ 
+          position: 'absolute', 
+          width: '1px', 
+          height: '1px', 
+          padding: 0, 
+          margin: '-1px', 
+          overflow: 'hidden', 
+          clip: 'rect(0, 0, 0, 0)', 
+          whiteSpace: 'nowrap', 
+          border: 0 
+        }}>
+          Asteryx - Transformamos segurança cibernética em proteção jurídica efetiva.
+        </h1>
+
         <div style={{ position: 'relative', display: 'inline-block', marginBottom: '1rem' }}>
           <img 
             src="/logo.png" 
