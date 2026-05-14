@@ -62,12 +62,12 @@ function App() {
           <img 
             src="/logo.svg" 
             alt="Asteryx Logo" 
-            width="550"
-            height="122"
+            width="450"
+            height="100"
             fetchPriority="high"
             loading="eager"
             style={{ 
-              width: '550px', 
+              width: '450px', 
               maxWidth: '100%', 
               height: 'auto', 
               objectFit: 'contain',
