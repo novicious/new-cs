@@ -62,13 +62,13 @@ function App() {
           <img 
             src="/logo.svg" 
             alt="Asteryx Logo" 
-            width="450"
-            height="100"
+            width="550"
+            height="122"
             fetchPriority="high"
             loading="eager"
             style={{ 
-              maxWidth: '450px', 
-              width: '100%', 
+              width: '550px', 
+              maxWidth: '100%', 
               height: 'auto', 
               objectFit: 'contain',
               filter: 'drop-shadow(0px 0px 30px rgba(2, 194, 110, 0.4))',
@@ -77,8 +77,8 @@ function App() {
           />
           <span style={{
             position: 'absolute',
-            bottom: '10%', /* Lowered to base of X */
-            right: '-4%',  /* Pushed out to clear the letter */
+            bottom: '15%', /* Adjusted for new height */
+            right: '-5%',  /* Pushed out to clear the letter X */
             color: 'rgba(255, 255, 255, 0.7)',
             fontSize: '1rem',
             fontWeight: 'bold',
