@@ -60,10 +60,10 @@ function App() {
 
         <div style={{ position: 'relative', display: 'inline-block', marginBottom: '1rem' }}>
           <img 
-            src="/logo.png" 
+            src="/logo.svg" 
             alt="Asteryx Logo" 
             width="350"
-            height="53"
+            height="78"
             fetchPriority="high"
             loading="eager"
             style={{ 
